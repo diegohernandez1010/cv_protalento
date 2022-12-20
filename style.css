@@ -1,0 +1,55 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 8px;
+    font-family:'Nunito', sans-serif;
+}
+
+.header{
+background-color: #FAEBD7;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 10vw;
+padding: 20px 0%;
+}
+
+body{
+background-color: black;
+
+}
+
+.lista{
+list-style:none;
+}
+li{
+    display: inline-block;
+    padding: 0 4vw;
+
+}
+a{
+    font-size: 2vw;
+    color:brown;
+   text-decoration: auto;
+}
+.lista, .li, a:hover{
+/* color: black; */
+
+}
+
+.hijo{
+    background-color:#FAEBD7 ;
+    width: 100%;
+    height: 26vh;
+    margin: 10px;
+}
+.logo{
+    width: 9vw;
+    
+}
+img{
+    max-width: 6vw;
+ /* max-height: 100%; */
+ border-radius: 100%;
+    border: 10px;
+}
