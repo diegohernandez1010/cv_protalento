@@ -32,12 +32,15 @@ li{
     padding: 0 4vw;
 
 }
-a{
+
+
+.cc{
     font-size: 4vh;
     color:black;
    text-decoration: auto;
    font-weight: bold;
 }
+
 .lista, .li, a:hover{
 color:rgb(241, 15, 15);
 
@@ -96,13 +99,15 @@ h2{
 }
 .contacto{
     /* width: 0px; */
-    /* display: flex; */
+    display: flex;
+        
     
 }
 
 #e{
 height: 14vh;
 border-color: black;
+margin-top: 2vw;
 }
 #botones{
 
