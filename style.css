@@ -19,6 +19,7 @@ position: fixed;
 border:solid black 0.5vw ;
 justify-content: center;
 width: 97%;
+border-radius: 24px;
 }
 
 nav{
@@ -124,6 +125,124 @@ border-color: black;
 margin-top: 2vw;
 }
 
-@media all {
+@media screen and (max-width: 768px) {
+    *{ font-family:'Nunito', sans-serif;}
+    .header{
+        background-color: #FFF8DC;
+        height: 9vw;
+        padding: 1vh;
+        border-radius: 10px;
+        position: fixed;
+        border:solid black 0.5vw ;
+        justify-content: center;
+        width: 97%;
+        display:flex;
+        }
+
+        li{
+            display: inline-block;
+            padding: 0 4vw;
+        
+}
+h2{
+    font-size: 20px;
+    width: 19vw;
+    margin-bottom: 1vw;
+    border-bottom: 4px solid black;
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+}
+
+.texto {
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+}
+.hijo {
+    margin: 0.5vw;
+    height: 33vw;
+    width: 100%;
+    /* background-color: #FFF8DC; */
+    display: flex;
+}
+#e {
+    height: 50px;
+    border-color: black;
+    margin-top: 2vw;
+
+}
+}
+@media screen and (max-width: 480px) {
+
+    .header{
+        background-color: #FFF8DC;
+        height: 11vw;
+        padding: 1vh;
+        border-radius: 10px;
+        position: fixed;
+        border:solid black 0.5vw ;
+        justify-content: center;
+        width: 93%;
+        display:flex;
+        }
+        .cc{
+            font-size: 10px;
+            color:black;
+           text-decoration: auto;
+           font-weight: bold;
+           display: flex;
+}
+.imagenes {
+    display: flex;
+    flex-direction: column;
+    width: 110%;
+    align-items: center;
+    justify-content: center;
+}
+#imagen {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4vw;
+}
+.hijo {
+    margin: 0.5vw;
+    height: 108vh;
+    width: 100%;
+    /* background-color: #FFF8DC; */
+    display: flex;
+    flex-direction: column;}
+
+    h2 {
+        font-size: 20px;
+        width: 19vw;
+        margin-bottom: 1vw;
+        border-bottom: 4px solid black;
+    }
     
+    .texto {
+        font-size: 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;    
+
+}
+
+#uno {
+        width: 91vw;
+
+
+}
+#a {
+    display: flex;
+    width: 92vw;
+    /* border-right: 1px solid black; */
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 }
