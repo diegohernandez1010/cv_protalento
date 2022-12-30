@@ -14,7 +14,7 @@ background-color: #FFF8DC;
 /* align-items: center; */
 height: 5vw;
 padding: 1vh;
-border-radius: 10px;
+border-radius: 11px;
 position: fixed;
 border:solid black 0.5vw ;
 justify-content: center;
@@ -54,6 +54,7 @@ li{
    text-decoration: auto;
    font-weight: bold;
    display: flex;
+   align-items: center;
 }
 
 .lista, .li, a:hover{
